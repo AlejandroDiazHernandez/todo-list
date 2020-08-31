@@ -1,0 +1,44 @@
+html {
+    background-color: aqua;
+}
+
+.search{
+
+    text-align: center;
+
+    &__addBtn{
+        background-color: greenyellow;
+        padding: 5px 5px;
+        transition-duration: 0.4s;
+    }
+}
+
+.search__addBtn:hover {
+    background-color: rgb(121, 233, 190); /* Green */
+    border: 2px solid greenyellow;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+
+    &-element{
+        list-style: none;
+        padding: 5px;
+        border: 2px solid black;
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &-close{
+            background-color: cyan;
+            padding: 1px 5px;
+            border: 2px solid black;
+        }
+    }
+}
+
+.list-element-close:hover {
+    background-color: darkblue;
+}
